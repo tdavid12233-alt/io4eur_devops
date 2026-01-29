@@ -16,3 +16,9 @@ For this simple Python project, the build step is installing dependencies:
 
 ```powershell
 pip install -r requirements.txt
+
+## Docker
+
+Build image:
+```powershell
+docker build -t hello-devops:v1 .
