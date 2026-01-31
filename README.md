@@ -15,7 +15,35 @@ A very simple Flask app that returns a text on HTTP.
 For this simple Python project, the build step is installing dependencies:
 
 ```powershell
-pip install -r requirements.txt
+## IO4EUR DevOps – Hello World (Python)
+
+A very simple Flask app that returns a text on HTTP.
+
+---
+
+## App
+
+- URL: http://localhost:8080  
+- Response: `Hello world!`
+
+---
+
+## Prerequisites (Windows)
+
+- Python installed  
+- Git installed  
+- Docker Desktop (only required for Docker run)
+
+---
+
+## Build and Run (Windows / PowerShell)
+
+### Run locally (no Docker required)
+
+Install dependencies:
+```powershell
+python -m pip install -r requirements.txt
+python app.py
 
 ## Docker
 
